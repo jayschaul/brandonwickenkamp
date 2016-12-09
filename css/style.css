@@ -4,18 +4,61 @@ html, body{
   margin: 0;
 }
 
-.nav {
+.nimbus {
+  font-family: "nimbus-sans",sans-serif;
+}
+
+.nimbus-extended {
+  font-family: "nimbus-sans-extended",sans-serif;
+}
+
+.italic {
+  font-family: "century-old-style-std",serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+nav {
   position: fixed;
   top: 40pt;
-  left: 20pt;
+  left: 40pt;
   z-index: 2;
 }
 
-.nav ul {
-  list-style: none;
+.footer {
+  position: absolute;;
+  bottom: 40pt;
+  left: 40pt;
+  z-index: 2;
 }
 
-.nav li {
+.footer li {
+  color: rgba(0,0,0,0.5);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  font-size: 16px;
+}
+
+a {
+  -webkit-appearance:none;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-family: "century-old-style-std",serif;
+  font-weight: 400;
+  line-height: 13px;
+  font-style: italic;
+}
+
+p {
   font-size: 16px;
 }
 
@@ -51,13 +94,18 @@ html, body{
   height: 100%;
 }
 
+/* =============
+
+ Gallery image positions
+
+ ============= */
 
 .gallery li.photo {
   transform: scale(0.95);
 }
 
 .gallery li:nth-child(1) {
-  margin-left: 20%;
+  margin-left: 30%;
 }
 
 .gallery li:nth-child(1) img {
@@ -77,3 +125,14 @@ html, body{
 .gallery li:nth-child(4) img {
   transform: scale(0.7);
 }
+
+/* =============
+
+ About page
+
+ ============= */
+
+ .about .contact {
+   text-align: center;
+   top: 40px;
+ }
