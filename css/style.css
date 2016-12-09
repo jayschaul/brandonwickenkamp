@@ -16,6 +16,16 @@ html, body{
   overflow: inherit;
 }
 
+.image-inside {
+  display: inline;
+}
+
+.image-wrapper {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+
  .gallery {
   height: 100% !important;
   list-style: none;
@@ -30,10 +40,12 @@ html, body{
 
 .gallery img {
   max-height:100%;
+  display: inline-block;
+  height: 100%;
 }
 
 
-.gallery .photo {
+/*.gallery .photo {
   transform: scale(0.95);
 }
 
@@ -53,4 +65,4 @@ html, body{
 
 .gallery li:nth-child(4) {
   transform: scale(0.7);
-}
+}*/
