@@ -21,14 +21,14 @@ html, body{
 nav {
   position: fixed;
   top: 40pt;
-  left: 40pt;
+  left: 50pt;
   z-index: 2;
 }
 
 .footer {
   position: absolute;;
   bottom: 40pt;
-  left: 40pt;
+  left: 50pt;
   z-index: 2;
 }
 
@@ -134,5 +134,14 @@ p {
 
  .about .contact {
    text-align: center;
-   top: 40px;
+   top: 40pt;
  }
+
+ .home .footer {
+   right: 50pt;
+   left: auto;
+ }
+
+  .home .footer li {
+    color: black;
+  }
