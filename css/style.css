@@ -6,15 +6,21 @@ html, body{
 
 .nav {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 40pt;
+  left: 20pt;
   z-index: 2;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  font-size: 16px;
 }
 
 .gallery .photo {
   display: inline;
-  overflow: inherit;
-  width: 100%;
 }
 
 .image-inside {
@@ -46,24 +52,28 @@ html, body{
 }
 
 
-/*.gallery .photo {
+.gallery li.photo {
   transform: scale(0.95);
 }
 
 .gallery li:nth-child(1) {
+  margin-left: 20%;
+}
+
+.gallery li:nth-child(1) img {
   transform: scale(0.6);
   transform-origin-y: 40%;
 }
 
-.gallery li:nth-child(2) {
+.gallery li:nth-child(2) img {
   transform: scale(0.9);
 }
 
-.gallery li:nth-child(3) {
+.gallery li:nth-child(3) img {
   transform: scale(0.4);
   transform-origin-y: 80%;
 }
 
-.gallery li:nth-child(4) {
+.gallery li:nth-child(4) img {
   transform: scale(0.7);
-}*/
+}
