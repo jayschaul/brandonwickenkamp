@@ -11,12 +11,12 @@ html, body{
   z-index: 2;
 }
 
-li.gallery {
+.gallery .photo {
   display: inline;
   overflow: inherit;
 }
 
- ul.gallery {
+ .gallery {
   height: 100% !important;
   list-style: none;
   display: inline-flex;
@@ -33,7 +33,7 @@ li.gallery {
 }
 
 
-.gallery li {
+.gallery .photo {
   transform: scale(0.95);
 }
 
