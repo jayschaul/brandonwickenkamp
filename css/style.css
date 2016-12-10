@@ -2,20 +2,7 @@ html, body{
   height: 100%;
   padding: 0;
   margin: 0;
-}
-
-.nimbus {
-  font-family: "nimbus-sans",sans-serif;
-}
-
-.nimbus-extended {
-  font-family: "nimbus-sans-extended",sans-serif;
-}
-
-.italic {
-  font-family: "century-old-style-std",serif;
-  font-style: italic;
-  font-weight: 400;
+  text-rendering: optimizeLegibility; 
 }
 
 nav {
@@ -23,6 +10,16 @@ nav {
   top: 40pt;
   left: 50pt;
   z-index: 2;
+}
+
+.wf-loading nav li {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.wf-loading nav {
+  top: 38pt;
 }
 
 .footer {
@@ -34,6 +31,10 @@ nav {
 
 .footer li {
   color: rgba(0,0,0,0.5);
+  font-family: "century-old-style-std", serif;
+  font-weight: 400;
+  line-height: 13px;
+  font-style: italic;
 }
 
 ul {
@@ -41,8 +42,10 @@ ul {
   padding-left: 0;
 }
 
-li {
+nav li {
   font-size: 16px;
+  font-family: "nimbus-sans",Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
 a {
@@ -52,7 +55,7 @@ a {
 }
 
 a:hover {
-  font-family: "century-old-style-std",serif;
+  font-family: "century-old-style-std", serif;
   font-weight: 400;
   line-height: 13px;
   font-style: italic;
@@ -92,6 +95,7 @@ p {
   max-height:100%;
   display: inline-block;
   height: 100%;
+  min-height: 300px;
 }
 
 /* =============
@@ -99,10 +103,6 @@ p {
  Gallery image positions
 
  ============= */
-
-.gallery li.photo {
-  transform: scale(0.95);
-}
 
 .gallery li:nth-child(1) {
   margin-left: 30%;
@@ -137,11 +137,17 @@ p {
    top: 40pt;
  }
 
+ /* =============
+
+  Home page
+
+  ============= */
+
  .home .footer {
    right: 50pt;
    left: auto;
  }
 
-  .home .footer li {
-    color: black;
+ .home .footer li {
+   color: black;
   }
