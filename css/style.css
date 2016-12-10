@@ -1,8 +1,8 @@
-html, body{
+html, body {
   height: 100%;
   padding: 0;
   margin: 0;
-  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 nav {
@@ -14,27 +14,27 @@ nav {
 
 .wf-loading nav li {
   font-size: 15px;
-  line-height: 20px;
   font-weight: 400;
 }
 
 .wf-loading nav {
-  top: 38pt;
+  top: 39pt;
 }
 
 .footer {
-  position: absolute;;
+  position: absolute;
   bottom: 40pt;
   left: 50pt;
   z-index: 2;
 }
 
-.footer li {
-  color: rgba(0,0,0,0.5);
+.footer.title h2 {
+  color: #A49C9B;
   font-family: "century-old-style-std", serif;
   font-weight: 400;
   line-height: 13px;
   font-style: italic;
+  font-size: 16px;
 }
 
 ul {
@@ -42,10 +42,11 @@ ul {
   padding-left: 0;
 }
 
-nav li {
+li {
   font-size: 16px;
   font-family: "nimbus-sans",Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 300;
+  line-height: 22px;
 }
 
 a {
@@ -57,7 +58,7 @@ a {
 a:hover {
   font-family: "century-old-style-std", serif;
   font-weight: 400;
-  line-height: 13px;
+  line-height: 0px;
   font-style: italic;
 }
 
@@ -84,7 +85,6 @@ p {
   z-index: 0;
   width: auto;
   white-space: nowrap;
-  padding: 0 0 0 0;
 }
 
 .gallery img {
@@ -133,6 +133,13 @@ p {
    top: 40pt;
  }
 
+ .about .footer {
+   text-align: center;
+   left: 50% !important;
+   width: 300px;
+   margin-left: -150px;
+ }
+
  /* =============
 
   Home page
@@ -143,7 +150,3 @@ p {
    right: 50pt;
    left: auto;
  }
-
- .home .footer li {
-   color: black;
-  }
