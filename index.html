@@ -9,16 +9,25 @@
   <meta property="og:title" content="Brandon Wickenkamp" />
   <meta property="og:description" content="Photographer" />
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://jayschaul.com/brandonwickenkamp" />
+  <meta property="og:url" content="http://brandonwickenkamp.com" />
   <meta property="og:image" content="http://jayschaul.com/brandonwickenkamp/images/01.jpg" />
   <meta property="og:site_name" content="Brandon Wickenkamp: Photographer">
   <meta name="robots" content="index, follow">
 
-  <script src="https://use.typekit.net/ryk1cid.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="jquery.unveil.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $("img").unveil(200);
+    });
+  </script>
+
+  <script src="https://use.typekit.net/ryk1cid.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </head>
 
@@ -28,13 +37,101 @@
     <ul>
       <li>brandon wickenkamp</li>
       <br>
-      <li><a href="/various-works">various works</li>
-      <li><a href="/home">home (ongoing)</li>
-      <li><a href="/akumal">akumal, mx</li>
+      <li><a href="/various-works">various works</a></li>
+      <li class="active">home (ongoing)</li>
+      <li><a href="/akumal">akumal, mx</a></li>
       <br>
       <li><a href="/about">about</a></li>
     </ul>
   </nav>
+
+  <ul class="gallery">
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="sunset" data-src="images/home/001_49590013_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jeremy-shirt" data-src="images/home/002_62510016_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="window" data-src="images/home/003_49660001_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="melon" data-src="images/home/004_49560017_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="powerlines" data-src="images/home/005_49590021_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="backyard" data-src="images/home/006_62570005_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="flowers" data-src="images/home/007_49550019_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jermey-face" data-src="images/home/008_62500003_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="drapes" data-src="images/home/009_49570029_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="hands" data-src="images/home/010_44990017_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="bears" data-src="images/home/011_62580005_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="weeds" data-src="images/home/012_49560008_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="melonseeds" data-src="images/home/013_49560015_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="haileybutt" data-src="images/home/014_44960012_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="nick" data-src="images/home/015_44950015_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="armwrestle" data-src="images/home/016_img011_brandonwickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="fork" data-src="images/home/017_45320005_brandonwickenkamp.jpg">
+      </div>
+    </li>
+  </ul>
 
 </body>
 
