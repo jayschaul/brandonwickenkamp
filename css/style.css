@@ -3,8 +3,12 @@ body, html {
   padding: 0;
   margin: 0;
   -webkit-font-smoothing: antialiased;
-  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+}
+
+.about {
+  overflow-y: visible;
 }
 
 nav {
