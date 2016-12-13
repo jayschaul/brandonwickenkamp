@@ -162,7 +162,7 @@ p {
 }
 
 .various-works .gallery img.dancer {
-  transform: scale(0.85);
+  transform: scale(0.9);
   /*transform-origin-y: 0%;*/
 }
 
@@ -192,17 +192,17 @@ p {
 }
 
 .various-works .gallery img.butt {
-  transform: scale(0.8);
+  transform: scale(0.9);
   /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.flowers {
-  transform: scale(0.60);
+  transform: scale(0.50);
   /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.eye {
-  transform: scale(0.75);
+  transform: scale(0.65);
   /*transform-origin-y: 0%;*/
 }
 
@@ -236,7 +236,7 @@ p {
 }
 
 .various-works .gallery img.adrian {
-  transform: scale(0.7);
+  transform: scale(0.9);
   /*transform-origin-y: 0%;*/
 }
 
@@ -255,8 +255,8 @@ p {
   /*transform-origin-y: 0%;*/
 }
 
-.various-works .gallery img.desk {
-  transform: scale(0.7);
+.various-works .gallery img.forest {
+  transform: scale(0.8);
   /*transform-origin-y: 0%;*/
 }
 
@@ -290,8 +290,8 @@ p {
   /*transform-origin-y: 0%;*/
 }
 
-.various-works .gallery img.forest {
-  transform: scale(0.8);
+.various-works .gallery img.desk {
+  transform: scale(0.6);
   /*transform-origin-y: 0%;*/
 }
 
@@ -316,7 +316,7 @@ p {
 }
 
 .various-works .gallery img.tereza {
-  transform: scale(0.7);
+  transform: scale(0.8);
   /*transform-origin-y: 0%;*/
 }
 
@@ -338,7 +338,7 @@ p {
  }
 
  .home .gallery img.jeremy-shirt {
-   transform: scale(0.7);
+   transform: scale(0.9);
    /*transform-origin-y: 0%;*/
  }
 
@@ -348,37 +348,37 @@ p {
  }
 
  .home .gallery img.melon {
-   transform: scale(0.7);
+   transform: scale(0.9);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.powerlines {
-   transform: scale(0.7);
+   transform: scale(0.4);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.backyard {
-   transform: scale(0.7);
+   transform: scale(0.6);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.flowers {
-   transform: scale(0.7);
+   transform: scale(0.75);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.jermey-face {
-   transform: scale(0.7);
+   transform: scale(0.9);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.drapes {
-   transform: scale(0.7);
+   transform: scale(0.6);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.hands {
-   transform: scale(0.7);
+   transform: scale(0.5);
    /*transform-origin-y: 0%;*/
  }
 
@@ -388,32 +388,32 @@ p {
  }
 
  .home .gallery img.weeds {
-   transform: scale(0.7);
+   transform: scale(0.4);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.melonseeds {
-   transform: scale(0.7);
+   transform: scale(0.8);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.haileybutt {
-   transform: scale(0.7);
+   transform: scale(0.75);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.nick {
-   transform: scale(0.7);
+   transform: scale(0.6);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.armwrestle {
-   transform: scale(0.7);
+   transform: scale(0.8);
    /*transform-origin-y: 0%;*/
  }
 
  .home .gallery img.fork {
-   transform: scale(0.7);
+   transform: scale(0.3);
    /*transform-origin-y: 0%;*/
  }
 
@@ -426,57 +426,57 @@ p {
  ============= */
 
  .akumal .gallery img.plant {
-   transform: scale(0.9);
+   transform: scale(0.8);
    /*transform-origin-y: 0%;*/
  }
 
  .akumal .gallery img.rocks {
-   transform: scale(0.7);
-   /*transform-origin-y: 0%;*/
- }
-
- .akumal .gallery img.shadow {
-   transform: scale(0.8);
-   /*transform-origin-y: 0%;*/
- }
-
- .akumal .gallery img.stairs {
-   transform: scale(0.7);
-   /*transform-origin-y: 0%;*/
- }
-
- .akumal .gallery img.chairs {
    transform: scale(0.5);
    /*transform-origin-y: 0%;*/
  }
 
- .akumal .gallery img.powerlines {
+ .akumal .gallery img.shadow {
    transform: scale(0.6);
    /*transform-origin-y: 0%;*/
  }
 
- .akumal .gallery img.mirror {
-   transform: scale(0.4);
-   /*transform-origin-y: 0%;*/
- }
-
- .akumal .gallery img.shower {
-   transform: scale(0.6);
-   /*transform-origin-y: 0%;*/
- }
-
- .akumal .gallery img.tit {
-   transform: scale(0.7);
-   /*transform-origin-y: 0%;*/
- }
-
- .akumal .gallery img.beach {
+ .akumal .gallery img.stairs {
    transform: scale(0.8);
    /*transform-origin-y: 0%;*/
  }
 
- .akumal .gallery img.switch {
+ .akumal .gallery img.chairs {
    transform: scale(0.6);
+   /*transform-origin-y: 0%;*/
+ }
+
+ .akumal .gallery img.powerlines {
+   transform: scale(0.5);
+   /*transform-origin-y: 0%;*/
+ }
+
+ .akumal .gallery img.mirror {
+   transform: scale(0.9);
+   /*transform-origin-y: 0%;*/
+ }
+
+ .akumal .gallery img.shower {
+   transform: scale(0.7);
+   /*transform-origin-y: 0%;*/
+ }
+
+ .akumal .gallery img.tit {
+   transform: scale(0.5);
+   /*transform-origin-y: 0%;*/
+ }
+
+ .akumal .gallery img.beach {
+   transform: scale(0.6);
+   /*transform-origin-y: 0%;*/
+ }
+
+ .akumal .gallery img.switch {
+   transform: scale(0.4);
    /*transform-origin-y: 0%;*/
  }
 
