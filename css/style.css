@@ -3,9 +3,16 @@ body, html {
   padding: 0;
   margin: 0;
   -webkit-font-smoothing: antialiased;
-  overflow-y: hidden;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+.no-overflow {
+  overflow-y: hidden;
 }
 
 .about {
