@@ -79,7 +79,6 @@ a:hover {
 li.active {
   font-family: "century-old-style-std", serif;
   font-weight: 400;
-  /*line-height: 0px;*/
   font-style: italic;
   margin-top: -4px;
   padding-bottom: 4px;
@@ -87,6 +86,19 @@ li.active {
 
 p {
   font-size: 16px;
+}
+
+p.caption {
+  display: table-cell;
+  position: absolute;
+  text-align: center;
+  top: -30pt;
+  width: 100%;
+  font-size: 12px;
+  font-family: "century-old-style-std", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #888;
 }
 
 .gallery .photo {
@@ -136,17 +148,17 @@ p {
 
 .various-works .gallery img.brian {
   transform: scale(0.9);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.studio {
   transform: scale(0.65);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.icecaves {
   transform: scale(0.9);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.brastrap {
@@ -156,181 +168,156 @@ p {
 
 .various-works .gallery img.suck {
   transform: scale(0.7);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.met {
   transform: scale(0.55);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.bedroom {
   transform: scale(0.7);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.dancer {
   transform: scale(0.9);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.lagirl {
   transform: scale(0.8);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.shadow {
   transform: scale(0.40);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.ira {
   transform: scale(0.7);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.marfa {
   transform: scale(0.6);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.kris {
   transform: scale(0.55);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.butt {
   transform: scale(0.9);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.flowers {
   transform: scale(0.50);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.eye {
   transform: scale(0.65);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.felix {
   transform: scale(0.8);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.jay {
   transform: scale(0.50);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.hand {
   transform: scale(0.9);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.trey {
   transform: scale(0.8);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.shelf {
   transform: scale(0.7);
-  /*transform-origin-y: 0%;*/
 }
 .various-works .gallery img.umbrella {
   transform: scale(0.5);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.adrian {
   transform: scale(0.9);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.brian-2 {
   transform: scale(0.8);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.flowerbox {
   transform: scale(0.7);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.handshake {
   transform: scale(0.5);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.forest {
   transform: scale(0.8);
-  /*transform-origin-y: 0%;*/
+
 }
 
 .various-works .gallery img.matilda {
   transform: scale(0.9);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.furniture {
   transform: scale(0.4);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.ben {
   transform: scale(0.75);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.ben-shelf {
   transform: scale(0.6);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.mystery {
   transform: scale(0.5);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.dazed {
   transform: scale(0.7);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.desk {
   transform: scale(0.6);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.tit {
   transform: scale(0.5);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.desert {
   transform: scale(0.8);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.jay-butt {
   transform: scale(0.5);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.glass-shelf {
   transform: scale(0.40);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.tereza {
   transform: scale(0.8);
-  /*transform-origin-y: 0%;*/
 }
 
 .various-works .gallery img.bush {
   transform: scale(0.6);
-  /*transform-origin-y: 0%;*/
 }
 
 /* =============
@@ -342,87 +329,87 @@ p {
 
  .home .gallery img.sunset {
    transform: scale(0.7);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.jeremy-shirt {
    transform: scale(0.9);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.window {
    transform: scale(0.7);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.melon {
    transform: scale(0.9);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.powerlines {
    transform: scale(0.4);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.backyard {
    transform: scale(0.6);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.flowers {
    transform: scale(0.75);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.jermey-face {
    transform: scale(0.9);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.drapes {
    transform: scale(0.6);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.hands {
    transform: scale(0.5);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.bears {
    transform: scale(0.7);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.weeds {
    transform: scale(0.4);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.melonseeds {
    transform: scale(0.8);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.haileybutt {
    transform: scale(0.75);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.nick {
    transform: scale(0.6);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.armwrestle {
    transform: scale(0.8);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .home .gallery img.fork {
    transform: scale(0.3);
-   /*transform-origin-y: 0%;*/
+
  }
 
 
@@ -435,57 +422,57 @@ p {
 
  .akumal .gallery img.plant {
    transform: scale(0.8);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.rocks {
    transform: scale(0.5);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.shadow {
    transform: scale(0.6);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.stairs {
    transform: scale(0.8);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.chairs {
    transform: scale(0.6);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.powerlines {
    transform: scale(0.5);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.mirror {
    transform: scale(0.9);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.shower {
    transform: scale(0.7);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.tit {
    transform: scale(0.5);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.beach {
    transform: scale(0.6);
-   /*transform-origin-y: 0%;*/
+
  }
 
  .akumal .gallery img.switch {
    transform: scale(0.4);
-   /*transform-origin-y: 0%;*/
+
  }
 
 
