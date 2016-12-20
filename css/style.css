@@ -89,7 +89,7 @@ p {
 }
 
 p.caption {
-  display: table-cell;
+  display: inline;
   position: absolute;
   text-align: center;
   top: -30pt;
