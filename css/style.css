@@ -80,8 +80,10 @@ li.active {
   font-family: "century-old-style-std", serif;
   font-weight: 400;
   font-style: italic;
-  margin-top: -4px;
-  padding-bottom: 4px;
+}
+
+li.active a {
+  line-height: 0;
 }
 
 p {
