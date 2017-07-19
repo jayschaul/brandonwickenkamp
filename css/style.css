@@ -324,6 +324,17 @@ p.caption {
 
 /* =============
 
+ East Syracuse Minoa High
+ sizes and positions
+
+ ============= */
+
+ .east-syracuse .gallery img.sarah {
+   transform: scale(0.9);
+ }
+
+/* =============
+
  Home (ongoing)
  sizes and positions
 
