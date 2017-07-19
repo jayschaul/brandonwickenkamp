@@ -322,22 +322,6 @@ p.caption {
   transform: scale(0.6);
 }
 
-/* =============
-
- East Syracuse Minoa High
- sizes and positions
-
- ============= */
-
- .east-syracuse .gallery img.sarah {
-   transform: scale(0.9);
-
- }
-
- .east-syracuse .gallery img.alex {
-   transform: scale(0.9);
-
- }
 
 /* =============
 
@@ -430,6 +414,23 @@ p.caption {
    transform: scale(0.3);
 
  }
+
+ /* =============
+
+  East Syracuse Minoa High
+  sizes and positions
+
+  ============= */
+
+  .east-syracuse .gallery img.sarah {
+    transform: scale(0.9);
+
+  }
+
+  .east-syracuse .gallery img.alex {
+    transform: scale(0.9);
+
+  }
 
 
 /* =============
