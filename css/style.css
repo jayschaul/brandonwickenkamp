@@ -92,7 +92,7 @@ p {
 
 .gallery p  {
   white-space: normal;
-  width: 400px;
+  width: 350px;
   display: inline-block;
   transform: translate(0pt, -58pt);
   padding: 0px 20px;
@@ -672,3 +672,21 @@ p.caption {
    right: 50pt;
    left: auto;
  }
+
+
+ /* =============
+
+ Mobile Adjustments
+
+ ============= */
+
+ @media screen and (max-width: 414px) {
+   nav {
+     top: 20pt;
+     left: 20pt;
+   }
+   .gallery p {
+     transform: translate(0pt, -38pt);
+     width: 300px;
+   }
+}
