@@ -580,6 +580,18 @@ p.caption {
 
   }
 
+  /* =============
+
+   2009 Graduates
+   sizes and positions
+
+   ============= */
+
+   .graduates .gallery img.Jessie001 {
+     transform: scale(0.9);
+
+   }
+
 
 /* =============
 
