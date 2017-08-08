@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width">
+  <title>Brandon Wickenkamp</title>
+  <meta name="author" content="Brandon Wickenkamp">
+  <meta name="keywords" content="brandon wickenkamp, photography, nyc, artist, new york, photographer">
+  <meta property="og:title" content="Brandon Wickenkamp" />
+  <meta property="og:description" content="Photographer" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://brandonwickenkamp.com" />
+  <meta property="og:image" content="http://jayschaul.com/brandonwickenkamp/images/01.jpg" />
+  <meta property="og:site_name" content="Brandon Wickenkamp: Photographer">
+  <meta name="robots" content="index, follow">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="jquery.unveil.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $("img").unveil(200);
+    });
+  </script>
+
+  <script src="https://use.typekit.net/ryk1cid.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>
+
+<body class="2009-graduates">
+
+  <nav>
+    <ul>
+      <li>brandon wickenkamp</li>
+      <br>
+      <li><a href="/">various works</a></li>
+      <li><a href="/home">home again (ongoing)</a></li>
+      <li><a href="east-syracuse">east syracuse minoa high</a></li>
+      <li class="active">2009 graduates</li>
+      <li><a href="/akumal">akumal, mx</a></li>
+      <br>
+      <li><a href="/about">about</a></li>
+    </ul>
+  </nav>
+
+  <ul class="gallery">
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jessie001" data-src="images/2009-graduates/Jessie_001_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jessie002" data-src="images/2009-graduates/Jessie_002_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jessie003" data-src="images/2009-graduates/Jessie_003_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jessie004" data-src="images/2009-graduates/Jessie_004_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jessie005" data-src="images/2009-graduates/Jessie_005_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jessie006" data-src="images/2009-graduates/Jessie_006_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jessie007" data-src="images/2009-graduates/Jessie_007_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="mindy001" data-src="images/2009-graduates/Mindy_001_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="mindy002" data-src="images/2009-graduates/Mindy_002_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="mindy003" data-src="images/2009-graduates/Mindy_003_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="mindy004" data-src="images/2009-graduates/Mindy_004_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="mindy005" data-src="images/2009-graduates/Mindy_005_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jason001" data-src="images/2009-graduates/Jason_001_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jason002" data-src="images/2009-graduates/Jason_002_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jason003" data-src="images/2009-graduates/Jason_003_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jason004" data-src="images/2009-graduates/Jason_004_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="jason005" data-src="images/2009-graduates/Jason_005_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tony001" data-src="images/2009-graduates/Tony_001_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tony002" data-src="images/2009-graduates/Tony_002_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tony003" data-src="images/2009-graduates/Tony_003_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tony004" data-src="images/2009-graduates/Tony_004_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tony005" data-src="images/2009-graduates/Tony_005_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tony006" data-src="images/2009-graduates/Tony_006_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tony007" data-src="images/2009-graduates/Tony_007_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tim001" data-src="images/2009-graduates/Tim_001_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tim002" data-src="images/2009-graduates/Tim_002_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tim003" data-src="images/2009-graduates/Tim_003_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tim004" data-src="images/2009-graduates/Tim_004_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+    <li class="photo">
+      <div class="image-wrapper">
+        <img class="tim005" data-src="images/2009-graduates/Tim_005_BrandonWickenkamp.jpg">
+      </div>
+    </li>
+  </ul>
+
+</body>
+
+</html>
