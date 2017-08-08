@@ -90,6 +90,14 @@ p {
   font-size: 16px;
 }
 
+.gallery p  {
+  white-space: normal;
+  width: 350px;
+  display: inline-block;
+  transform: translate(0pt, -58pt);
+  padding: 0px 20px;
+}
+
 p.caption {
   display: inline;
   position: absolute;
@@ -572,6 +580,18 @@ p.caption {
 
   }
 
+  /* =============
+
+   2009 Graduates
+   sizes and positions
+
+   ============= */
+
+   .graduates .gallery img.Jessie001 {
+     transform: scale(0.9);
+
+   }
+
 
 /* =============
 
@@ -664,3 +684,21 @@ p.caption {
    right: 50pt;
    left: auto;
  }
+
+
+ /* =============
+
+ Mobile Adjustments
+
+ ============= */
+
+ @media screen and (max-width: 414px) {
+   nav {
+     top: 20pt;
+     left: 20pt;
+   }
+   .gallery p {
+     transform: translate(0pt, -38pt);
+     width: 300px;
+   }
+}
