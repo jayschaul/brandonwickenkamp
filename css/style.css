@@ -741,17 +741,17 @@ p.caption {
  ============= */
 
  .akumal .gallery img.plant {
-   transform: scale(0.9);
+   transform: scale(0.8);
 
  }
 
  .akumal .gallery img.rocks {
-   transform: scale(0.7);
+   transform: scale(0.9);
 
  }
 
  .akumal .gallery img.shadow {
-   transform: scale(0.8);
+   transform: scale(0.7);
 
  }
 
