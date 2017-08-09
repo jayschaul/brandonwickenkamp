@@ -419,7 +419,7 @@ p.caption {
  }
 
  .home .gallery img.fork {
-   transform: scale(0.3);
+   transform: scale(0.7);
 
  }
 
@@ -741,27 +741,27 @@ p.caption {
  ============= */
 
  .akumal .gallery img.plant {
-   transform: scale(0.8);
+   transform: scale(0.9);
 
  }
 
  .akumal .gallery img.rocks {
-   transform: scale(0.5);
+   transform: scale(0.7);
 
  }
 
  .akumal .gallery img.shadow {
-   transform: scale(0.6);
-
- }
-
- .akumal .gallery img.stairs {
    transform: scale(0.8);
 
  }
 
+ .akumal .gallery img.stairs {
+   transform: scale(0.9);
+
+ }
+
  .akumal .gallery img.chairs {
-   transform: scale(0.6);
+   transform: scale(0.7);
 
  }
 
@@ -781,7 +781,7 @@ p.caption {
  }
 
  .akumal .gallery img.tit {
-   transform: scale(0.5);
+   transform: scale(0.6);
 
  }
 
@@ -791,7 +791,7 @@ p.caption {
  }
 
  .akumal .gallery img.switch {
-   transform: scale(0.4);
+   transform: scale(0.7);
 
  }
 
